@@ -31,7 +31,7 @@ Any cloud target <br>
 any on - premises <br>
 
 <b>CI & CD in Pipelines : </b> <br>
-<b>CI [Continous Integration ] </b>:CI Iis used to automate tests and build for the projects . It is used to find bugs or other build issue in early phase .<br>
+<b>CI [Continous Integration ] </b>:CI used to automate tests and build for the projects . It is used to find bugs or other build issue in early phase .<br>
 <b>CD [ Continous Delivery ] </b>: CD is used to automatically deply and test code in multiple stages ( environments like dev , qa , staging etc .) to maintain the quality . <br>
 
 <b>In simple terms CI is used to build and test the code and CD means to deploy the code </b>
