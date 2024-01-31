@@ -87,3 +87,49 @@ and can run on any system that supports Docker.
 - 𝚍𝚘𝚌𝚔𝚎𝚛 𝚍𝚒𝚏𝚏 shows filesystem changes in a container.
 - 𝚍𝚘𝚌𝚔𝚎𝚛 𝚝𝚘𝚙 displays running processes in a container.
 - 𝚍𝚘𝚌𝚔𝚎𝚛 𝚜𝚎𝚊𝚛𝚌𝚑 searches for images on Docker Hub.
+-------------------------------------------------------------------------------------------------------------
+<b>DOCKER FILE</b> :<br>
+
+<b>FROM</b> : built new image from old version of any application like python : ex : pythin 3.5
+creating base image  .
+
+<b>RUN</b> : apt update && apt install maven .
+for creating any image we need some sort of libraries and dependencies that we will install in run command and we can define more than one run .
+
+<b>LABEL</b> : author 
+ENV : (environmental variable ) : SONAR_USER =xyz  ( credentiials for using server for other persons for security 
+
+<b>WORKDIR</b> : (work directry) : location of work directry / app 
+
+<b>COPY</b> : / demo /app 
+it will copy locally from system like c drive or d drive 
+
+<b>ADD</b> : www.xyx.com / app  zipped file can be unzipped at the same time .
+
+<b>EXPOSE</b> : any port no or any range , what ever the port no we can expoe for mapping for external user
+
+<b>CMD</b> : run .. basicallt this cmd helps the image to run and covert into container .. at the time of running the container 
+
+<b>ENTRYPOINT</b> : cmd and entrypoint are same . in entrypoint priority will be given 
+
+difrnce b/w copy and add <br>
+Copy will copy only from local , it will not copy from internet and it will not copy from other sources .<br>
+ADD : it will copy from local if you want or other wise it will copy from internet and if it is in zipped format it will unzipp the file .
+
+-------------------------------------------------------
+<b>Monolithic</b> : only 1 service for frontend backend and database <br>
+<b>Microservices</b> : multiple services for database , frontend , backend  and database <br>
+<b>Mount</b> the volume means for particular location / container / volume
+
+-----------------------------------------------------------------------------------------
+-e = means variable <br>
+-d = it will run the container in background (detached mode) <br>
+-t = directly running the container <br>
+
+------------------------------------------------------------------------------------------
+<b>Docker volumes : 3 types </b>
+
+Anonymos volume type <br>
+Named Volume type <br>
+Host volume type <br>
+
