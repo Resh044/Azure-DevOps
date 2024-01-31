@@ -1,4 +1,4 @@
-Docker commands :
+<b>Docker commands :</ b><br>
 docker --version : it will show the latest built version of docker
 docker pull alpine : it will pull the latest  images from registery
 docker images : it will give list of images
